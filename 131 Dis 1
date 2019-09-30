@@ -1,0 +1,35 @@
+$ git add
+$ git commit -m
+
+$ git push
+push committed changes to the remote 
+
+$ touch
+create a new file
+
+$ git log
+show the history (all the commit)
+allow you to go back to any previous changes
+
+$ git reset --hard <harsh #>
+
+Undo changes
+before you add 
+$ git checkout -- filename
+
+after add (already in the staging area)
+$ git reset filename
+then use git checkout again to delete you change
+
+after you commit
+$ git revert harshNumber
+$ git revert -n harshNumber   # without commit 
+
+create a new branch
+$ git branch student1
+
+!!change the branch
+$ git checkout student1
+
+$ git push origin studnet1
+change only made to student1
