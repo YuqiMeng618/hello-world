@@ -37,3 +37,20 @@ change only made to student1
 delete branch #Be careful you may lose you did not merge to the master, you'll lose all your changes
 two ways
 $ git push -- delete origin
+
+Debug the code
+%xmode Plain
+%xmode Verbose
+%xmode Context
+
+Debugger
+import pdb; pdb.set.trace()
+%pdb on
+
+# count and measure the time
+%time 
+# gives detail information about yoru function
+%prun func
+
+
+
